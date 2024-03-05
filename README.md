@@ -1,1 +1,2 @@
-# group-chat-server
+# Chat (with Node.js)
+
