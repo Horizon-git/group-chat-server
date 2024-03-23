@@ -21,6 +21,19 @@
   <li>PostgresSQL</li>
 </ul>
 
+# Launch Instructions
+```
+git clone https://github.com/Horizon-git/group-chat-server.git
+cd project_folder
+npm install
+npm start
+```
+You need to create file .env and type your SQL connection string in such format:
+```
+DB_ELEPHANT_SQL=postgres://USERNAME:PASSWORD@SERVER/DATABASE
+```
+
+
 # In Conclusion
 <p>This project is made to improve my skills in Node.js + Websocket. User has an ability to create rooms (create / rename / delete). New user see all prev messages in the room.</p>
 
